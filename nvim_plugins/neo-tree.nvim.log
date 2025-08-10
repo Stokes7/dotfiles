@@ -1,0 +1,29 @@
+[INFO  Sat 09 Aug 2025 12:02:41 PM CEST] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:120: No items, skipping git ignored/status lookups
+[INFO  Sat 09 Aug 2025 12:02:41 PM CEST] ...ree.nvim/lua/neo-tree/sources/filesystem/lib/fs_scan.lua:120: No items, skipping git ignored/status lookups
+[INFO  Sat 09 Aug 2025 05:57:56 PM CEST] ...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:267: Toggling hidden files: true
+[INFO  Sun 10 Aug 2025 10:42:39 AM CEST] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:663: Renamed nvchadui.lua successfully
+[ERROR Sun 10 Aug 2025 10:47:23 AM CEST] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:842: Error opening file: vim/_editor.lua:0: nvim_exec2()[1]..BufNew Autocommands for "*": Vim(append):Error executing lua callback: cannot open /home/stokes/.local/share/nvim/base46_cache/tbline: No such file or directory
+stack traceback:
+	[C]: in function 'dofile'
+	...cal/share/nvim/lazy/ui/lua/nvchad/tabufline/lazyload.lua:71: in function <...cal/share/nvim/lazy/ui/lua/nvchad/tabufline/lazyload.lua:66>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+	[C]: in function 'pcall'
+	...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:821: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:807: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:829: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:837: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:204: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:203>
+[ERROR Sun 10 Aug 2025 10:49:07 AM CEST] ...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:842: Error opening file: vim/_editor.lua:0: nvim_exec2()[1]..BufNew Autocommands for "*": Vim(append):Error executing lua callback: cannot open /home/stokes/.local/share/nvim/base46_cache/tbline: No such file or directory
+stack traceback:
+	[C]: in function 'dofile'
+	...cal/share/nvim/lazy/ui/lua/nvchad/tabufline/lazyload.lua:71: in function <...cal/share/nvim/lazy/ui/lua/nvchad/tabufline/lazyload.lua:66>
+	[C]: in function 'nvim_exec2'
+	vim/_editor.lua: in function <vim/_editor.lua:0>
+	[C]: in function 'pcall'
+	...hare/nvim/lazy/neo-tree.nvim/lua/neo-tree/utils/init.lua:821: in function 'open_file'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:807: in function 'open'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:829: in function 'open_with_cmd'
+	...y/neo-tree.nvim/lua/neo-tree/sources/common/commands.lua:837: in function 'open'
+	...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:204: in function <...o-tree.nvim/lua/neo-tree/sources/filesystem/commands.lua:203>
+[INFO  Sun 10 Aug 2025 12:25:26 PM CEST] ....nvim/lua/neo-tree/sources/filesystem/lib/fs_actions.lua:663: Renamed alpha_images successfully
