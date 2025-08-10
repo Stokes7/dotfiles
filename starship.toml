@@ -1,0 +1,36 @@
+# Minimal Starship prompt with red username accent
+add_newline = false
+
+format = """
+[╭─](bold bright-red)$username$directory$git_branch$git_status$cmd_duration
+[╰─](bold bright-red)$character
+"""
+
+[username]
+style_user = "bold bright-red"
+format = "🔥[$user]($style) in "
+show_always = true
+
+[directory]
+style = "blue"
+truncation_length = 3
+truncate_to_repo = false
+
+[git_branch]
+symbol = "🌿 "
+style = "bold bright-green"
+format = "[$symbol$branch]($style) "
+
+[git_status]
+style = "bright-yellow"
+format = "([$all_status$ahead_behind]($style)) "
+
+[cmd_duration]
+min_time = 500
+format = "[$duration]($style)"
+style = "bright-cyan"
+
+[character]
+success_symbol = "[❯](bold bright-red)"
+error_symbol = "[❯](bold bright-red)"
+
